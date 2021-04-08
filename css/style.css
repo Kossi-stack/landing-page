@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    position: fixed ;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#nav-bar {
+    display: flex;
+    
+}
+#nav-bar a {
+    text-decoration: none;
+    font-size: 30px;
+    color:black ;
+    margin: 5px 15px;
+    cursor: pointer;
+    padding: 5px;
+    font-variant: small-caps;
+    
+}
+ #nav-bar a:hover{
+     color: blue;
+ }
+#header-img {
+  height: 45px;
+
+}
+
+#form {
+    text-align: center ;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 15px auto;
+    margin-top: 50px;
+}
+#submit {
+ margin: 15px auto;
+ padding: 5px 10px;
+ background-color:yellow ;
+ font-weight: bold;
+ cursor: pointer;
+}
+#email {
+    width: 50%;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+#features {
+    display: flex;
+    width: 80%;
+    margin: 15px auto;
+    flex-direction: column;
+
+}
+.feature {
+    display: flex;
+align-items: center;
+width: 50%;
+margin: 15px auto;
+
+}
+.feature img {
+    width: 40px;
+    margin-right: 40px;
+}
+
+h3{
+    margin: 0;
+    font-size: 20px;
+}
+.feature p {
+    margin-top: 5px;
+
+    
+}
+#how-it-works {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+#video {
+    margin: 0 auto;
+    
+}
+#pricing {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 45px auto;
+    
+}
+
+.price {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+}
+.price h4 {
+    background-color: burlywood;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+span {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.select {
+    text-decoration: none;
+    background-color: yellow;
+    font-size: 25px;
+    padding: 10px 15px;
+    width: 25%;
+    margin: 15px auto;
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.select:hover{
+    background-color: orange;
+}
+
+footer{
+    background-color: pink;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
